@@ -22,7 +22,7 @@ const App = () => {
           <Route path='/home' element={<Home />}/>
           <Route path='/about' element={<About />}/>
 
-          {/* Menulayout using outlet to get components*/}
+          {/*layout Menulayout using outlet to get components*/}
           <Route element={<MenuLayout />}>
             <Route path='/menu' element={<Menu />}/>
             <Route path='/menu/:id' element={<Menus />}/>
